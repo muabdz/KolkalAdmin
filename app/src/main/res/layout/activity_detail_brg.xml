@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="5sp"
+    tools:context="muadz.kolkaladmin.DetailBrg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Detail Pesanan"
+        android:textSize="25sp"
+        android:padding="5sp"
+        android:textAlignment="center"
+        />
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="0sp"
+    android:layout_weight="8"
+    android:layout_width="match_parent">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama\t:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosong"
+        android:id="@+id/tvNama"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. Handphone\t:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosong"
+        android:id="@+id/tvNohp"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat\t:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosong"
+        android:id="@+id/tvAlamat"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email\t:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kosong"
+        android:id="@+id/tvEmail"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total\t\t\t: Rp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25sp"
+        android:textAlignment="center"/>
+</LinearLayout>
+
+</ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="Konfirmasi Pembelian"
+        android:layout_gravity="bottom"
+        android:id="@+id/bKonfirm" />
+</LinearLayout>
