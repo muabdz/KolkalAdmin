@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/colorPrimary"
     android:padding="5sp"
-    tools:context="muadz.kolkaladmin.DetailBrg">
+    tools:context="muadz.kolkaladmin.DetailPesanan">
 
     <TextView
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kosong"
+        android:text="Mu'adz"
         android:id="@+id/tvNama"
         android:textAlignment="center"
         android:textSize="20sp"/>
@@ -51,7 +51,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kosong"
+        android:text="085211967984"
         android:id="@+id/tvNohp"
         android:textAlignment="center"
         android:textSize="20sp"/>
@@ -63,7 +63,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kosong"
+        android:text="Perum. Griya Tugu Asri Blok B2/19, Cimanggis, Depok"
         android:id="@+id/tvAlamat"
         android:textAlignment="center"
         android:textSize="20sp"/>
@@ -75,8 +75,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kosong"
+        android:text="muuadxxxx@gmail.com"
         android:id="@+id/tvEmail"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesanan\t:"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leci\t\t\t\t\t\t\t\t\t\t\t\t\t2"
         android:textAlignment="center"
         android:textSize="20sp"/>
     <TextView
@@ -88,7 +99,7 @@
         android:id="@+id/tvTot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:text="80000"
         android:textSize="25sp"
         android:textAlignment="center"/>
 </LinearLayout>
